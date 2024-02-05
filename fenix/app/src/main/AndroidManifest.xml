@@ -59,7 +59,8 @@
         android:supportsRtl="true"
         android:theme="@style/NormalTheme"
         android:usesCleartextTraffic="true"
-        tools:ignore="UnusedAttribute">
+        tools:ignore="UnusedAttribute"
+        android:hardwareAccelerated="true">
 
         <profileable
             android:shell="true"
