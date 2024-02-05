@@ -64,7 +64,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App.Starting"
         android:name=".FocusApplication"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        android:hardwareAccelerated="true">
 
         <activity
             android:name=".activity.IntentReceiverActivity"
